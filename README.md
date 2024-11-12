@@ -45,15 +45,15 @@ Argyle Square Air Quality — CoM Open Data Portal (melbourne.vic.gov.au)
 
 
 > #### skill set
-> - Datacleaning
-> - Data analysis and visualizations
-> - Machine Learning(supervised Learning)
->  - Logistic Regression
->  - Support Vector Machine(SVM)
->  - Decision Tree
->  - AdaBoost classifier
->  - Random Forest Classifier
->- Basic Meteorology
+ - Datacleaning
+ - Data analysis and visualizations
+ - Machine Learning(supervised Learning)
+  - Logistic Regression
+  - Support Vector Machine(SVM)
+  - Decision Tree
+  - AdaBoost classifier
+  - Random Forest Classifier
+- Basic Meteorology
 
 
 #### steps taken 
