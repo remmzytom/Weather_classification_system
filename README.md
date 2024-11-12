@@ -44,7 +44,8 @@ Argyle Square Air Quality — CoM Open Data Portal (melbourne.vic.gov.au)
  These features will be used to classify weather conditions into categories such as sunny, cloudy, rainy, and stormy. The dataset will be preprocessed to handle any missing values, outliers, or inconsistencies - before being used to train the machine learning model.
 
 
-> #### skill set
+>
+ #### skill set
  - Datacleaning
  - Data analysis and visualizations
  - Machine Learning(supervised Learning)
