@@ -40,5 +40,48 @@ Argyle Square Air Quality — CoM Open Data Portal (melbourne.vic.gov.au)
 - Wind speed (m/s)
 - Wind direction (degrees)
 - Gust wind speed (m/s)
-- These features will be used to classify weather conditions into categories such as sunny, cloudy, rainy, and stormy. The dataset will be preprocessed to handle any missing values, outliers, or inconsistencies - before being used to train the machine learning model.
+>
+ These features will be used to classify weather conditions into categories such as sunny, cloudy, rainy, and stormy. The dataset will be preprocessed to handle any missing values, outliers, or inconsistencies - before being used to train the machine learning model.
 
+
+#### skill set
+- Datacleaning
+- Data analysis and visualizations
+- Machine Learning(supervised Learning)
+  - Logistic Regression
+  - Support Vector Machine(SVM)
+  - Decision Tree
+  - AdaBoost classifier
+  - Random Forest Classifier
+- Basic Meteorology
+
+
+#### steps taken 
+
+#### Data cleaning/preparation
+Data loading and with API
+Handling missing Values
+Data cleaning and formatting
+
+#### Feature engineering
+- removing the outlier
+- finding the correlation
+- getting the truth label for the dataset
+- normalizing/standardizing the dataset
+- merging dataset together
+- feature selection
+- feature encoding
+
+#### Exploratory Data Analysis(EDA)
+- Variation od Avg_Wind_speed and Gust_Wind_speed
+- Impact of Vapour Pressure on Humidity
+- Patterns in Air Temperature, Humidity, and Pressure
+- patterns of pollutants across the year
+- Efect of pollutants across different years
+- determine the features that contributed to high rate of Ozone
+
+#### Machine learning and modelling
+- dimensionality reduction(t-SNE)
+- resampling technique(smote)
+- Model training
+- prediction
