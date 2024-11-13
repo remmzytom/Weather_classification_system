@@ -207,27 +207,10 @@ testing_accuracy : 0.7494073228553868
 
 
 #### prediction using Random Forest Classifier
->
->>Accuracy: 0.9995785406971639
->>>confusion matrix:--------------------------
->>>>[[14256    13     0     1]
- [    0 14130     0     0]
- [    0     0 14176     0]
- [   10     0     0 14359]]
->>classification report:----------------------
-              precision    recall  f1-score   support
 
-           0       1.00      1.00      1.00     14270
-           1       1.00      1.00      1.00     14130
-           2       1.00      1.00      1.00     14176
-           3       1.00      1.00      1.00     14369
-
-    accuracy                           1.00     56945
-   macro avg       1.00      1.00      1.00     56945
-weighted avg       1.00      1.00      1.00     56945
 
 >
-![](images/11.png)
+>>![](images/11.png)
 
 
 ### conclusion
