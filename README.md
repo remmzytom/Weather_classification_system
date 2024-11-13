@@ -160,7 +160,7 @@ If this trend continues, there could be long-term implications for air quality a
 
 seeks to identify and analyze the key factors that influence elevated ozone concentrations
 
-![](images/8.png)
+![](images/2.png)
 
 The analysisshows that carbon monoxide and nitrogen dioxide are the biggest factors affecting ozone levels. Carbon monoxide has the highest impact, meaning it has a strong connection to ozone, likely because of its role in chemical reactions in the air. Nitrogen dioxide also significantly affects ozone, especially in places with heavy traffic emissions. Other factors like temperature have a smaller effect. This suggests that controlling carbon monoxide and nitrogen dioxide emissions is key to managing ozone levels effectively.
 
