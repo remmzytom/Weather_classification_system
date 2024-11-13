@@ -55,6 +55,7 @@ Argyle Square Air Quality — CoM Open Data Portal (melbourne.vic.gov.au)
    - AdaBoost classifier
    - Random Forest Classifier
 - Basic Meteorology
+- Pickle
 
 
 #### steps taken 
@@ -86,3 +87,6 @@ Data cleaning and formatting
 - resampling technique(smote)
 - Model training
 - prediction
+
+#### deployment
+- pickle
