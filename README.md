@@ -201,9 +201,9 @@ testing_accuracy : 0.8594784441127403
 ##### Using Random Forest Classifier
 >
 >>cross-validated accuracy score : [0.99947318 0.99956098 0.99953903 0.99947318 0.99940731]
->>average accuracy : 1.00
->>training_accuracy : 1.0
->>testing_accuracy : 0.9995785406971639
+>>>average accuracy : 1.00
+>>>>training_accuracy : 1.0
+>>>>>testing_accuracy : 0.9995785406971639
 
 
 #### prediction using Random Forest Classifier
@@ -224,7 +224,11 @@ confusion matrix:--------------------------
 
     accuracy                           1.00     56945
    macro avg       1.00      1.00      1.00     56945
+   >
 weighted avg       1.00      1.00      1.00     56945
+
+>
+![](images/11.png)
 
 
 ### conclusion
