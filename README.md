@@ -200,10 +200,10 @@ testing_accuracy : 0.8594784441127403
 
 ##### Using Random Forest Classifier
 >
-cross-validated accuracy score : [0.99947318 0.99956098 0.99953903 0.99947318 0.99940731]
-average accuracy : 1.00
-training_accuracy : 1.0
-testing_accuracy : 0.9995785406971639
+>>cross-validated accuracy score : [0.99947318 0.99956098 0.99953903 0.99947318 0.99940731]
+>>average accuracy : 1.00
+>>training_accuracy : 1.0
+>>testing_accuracy : 0.9995785406971639
 
 
 #### prediction using Random Forest Classifier
@@ -214,7 +214,7 @@ confusion matrix:--------------------------
  [    0 14130     0     0]
  [    0     0 14176     0]
  [   10     0     0 14359]]
-classification report:----------------------
+>>classification report:----------------------
               precision    recall  f1-score   support
 
            0       1.00      1.00      1.00     14270
