@@ -211,7 +211,7 @@ The analysisshows that carbon monoxide and nitrogen dioxide are the biggest fact
 
 >
 >>![](images/11.png)
->
+>>>
 The Random Forest Classifier performed almost perfectly in this test, with an accuracy of 99.95%, meaning it correctly predicted nearly all the examples.
 
 Confusion Matrix: There were very few mistakes. In class 0, 19 instances were misclassified, and in class 3, 7 instances were misclassified, but the rest were predicted correctly.
