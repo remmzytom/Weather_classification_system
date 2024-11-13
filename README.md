@@ -178,20 +178,20 @@ testing_accuracy : 0.7494073228553868
 
 ##### Using support Vector Machine
 >
-Cross-validated accuracy scores: [0.94387128 0.9433225  0.93954693 0.94512249 0.94261881]
+>>Cross-validated accuracy scores: [0.94387128 0.9433225  0.93954693 0.94512249 0.94261881]
 Average accuracy: 0.94
 training_accuracy : 0.9479363769267579
 testing_accuracy : 0.9478795328826061
 
 ##### using Decission Tree
 
-cross-validated accuracy scores: [0.86587138 0.86711275 0.86687053 0.86711275 0.8686832 ]
+>cross-validated accuracy scores: [0.86587138 0.86711275 0.86687053 0.86711275 0.8686832 ]
 Average accuracy: 0.87
 training_accuracy : 0.8671422256402183
 testing_accuracy : 0.8649830664380984
 
 ##### Using AdaBoostClassifier
-
+>
 cross-validated accuracy scores: [0.8558258  0.85334533 0.85150145 0.85266485 0.85136648]
 Average accuracy: 0.85
 training_accuracy : 0.8612295251098653
