@@ -90,3 +90,79 @@ Data cleaning and formatting
 
 #### deployment
 - pickle
+
+
+
+#### Variation od Avg_Wind_speed and Gust_Wind_speed¶
+we are typically trying to understand the relationship between typical wind conditions and extreme wind events
+
+![](images/8.png)
+
+This analysis shows the seasonal variation of average wind speed and gust wind speed throughout the year.The graph shows that in February and September, both average and gust wind speeds peak, indicating stronger winds during these months. Conversely, December and October experience significant drops in wind speeds, with December starting low and October having a notable decline after the September peak. This behavior during these periods may be due to changes seen in the winter and autumn months.
+
+
+#### Impact of Vapour Pressure on Humidity
+
+I seek to understand how changes in the amount of water vapor in the air (measured as vapor pressure) influence the level of moisture or humidity in the atmosphere.
+
+![](images/7.png)
+
+The visualisation shows how vapour pressure and humidity levels are related, using different colors to represent various vapour pressure values. Higher vapour pressure, shown in green and yellow, usually goes along with higher humidity levels. Most data points fall between 1.0 and 2.5 vapour pressure units, with humidity levels ranging from 0% to 100%.
+
+When humidity levels are high (above 60%), vapour pressure values are spread out but tend to be higher. On the other hand, when humidity is low (below 40%), vapour pressure is generally lower, shown in purple and blue. This pattern suggests that higher humidity often means higher vapour pressure and more concentrated vapour pressure, though there is some variation.
+
+
+#### Patterns in Air Temperature, Humidity, and Pressure
+
+I aim to identify and analyze how these three atmospheric variables interact over time under different conditions. The goal is to explore potential relationships, seasonal trends, or fluctuations in temperature, humidity, and pressure, providing insights into weather patterns, climate behavior, and environmental conditions.
+
+![](images/6.png)
+
+This analysis shows how air temperature, humidity, and atmospheric pressure change over time. The high and consistent levels of humidity suggest that the environment remains moist throughout the recorded period. Humidity levels stay quite high most of the time, which indicates a steady moisture presence, possibly due to frequent rainfall or high moisture in the air. This moisture could have a significant impact on local weather conditions and daily life.
+
+The air temperature fluctuates noticeably, showing frequent rises and falls. This pattern suggests regular cycles in temperature, likely driven by daily weather changes or seasonal effects. These temperature changes are typical of environments where temperatures shift between day and night or during different seasons.
+
+Meanwhile, the atmospheric pressure remains relatively stable, with only slight variations. This steady pressure suggests that large weather changes, such as storms or fronts, may not be common during the observed period. The combination of stable pressure and fluctuating temperature could point to a climate where conditions like rain or cloudy days are frequent, but severe weather events are rare.
+
+
+
+
+#### patterns of pollutants across the year
+
+I aim to examine how levels of various pollutants change throughout the year, identifying any seasonal trends, peak periods, or fluctuations. The goal is to understand when pollutant levels are highest or lowest, which can help in forecasting air quality, understanding environmental impacts, and informing public health strategies.
+
+![](images/5.png)
+
+##### Carbon Monoxide (CO) and Nitrogen Dioxide (NO2):
+
+These pollutants have levels that go up and down every month, but there are no clear trends showing they are increasing or decreasing over time. This suggests that the sources of these pollutants, like cars and factories, are consistent throughout the year.
+
+##### PM10 and PM2.5: 
+In terms pf PM10(particulate matter) levels also fluctuate each month without a clear trend, which might be due to weather changes or different activities. PM2.5(particulate matter) levels are stable and low throughout the year, indicating that efforts to control this pollutant might be effective.
+
+
+#### Ozone levels across different years
+
+Aim to examine how ozone concentrations have varied over multiple years, identifying any long-term trends. The goal is to understand changes in ozone levels over time, which can provide insights into the effectiveness of environmental regulations, the impact of climate change, and implications for air quality and public health.
+
+![](images/4.png)
+
+The graph shows that ozone levels have remained fairly consistent from 2021 to 2024, with most values concentrated between 100 and 200 units. This indicates that the ozone levels in the area have stayed stable throughout this period. There is a small amount of variation outside of this range, but the majority of the data suggests that pollution sources related to ozone have not significantly increased or decreased over time. There are a few outliers, especially with negative values, that may need further investigation or data cleaning.
+
+If this trend continues, there could be long-term implications for air quality and public health. Consistently high ozone levels could negatively affect the environment and human health if left unchecked. It’s important to monitor these levels closely and take action to reduce pollution sources where possible. Maintaining stable ozone levels is positive, but efforts should still focus on reducing pollutants to improve air quality and prevent any potential harm to health and the environment.
+
+
+
+
+
+
+#### features that contributed to high rate of Ozone level across the years
+
+seeks to identify and analyze the key factors that influence elevated ozone concentrations
+
+![](images/8.png)
+
+The analysisshows that carbon monoxide and nitrogen dioxide are the biggest factors affecting ozone levels. Carbon monoxide has the highest impact, meaning it has a strong connection to ozone, likely because of its role in chemical reactions in the air. Nitrogen dioxide also significantly affects ozone, especially in places with heavy traffic emissions. Other factors like temperature have a smaller effect. This suggests that controlling carbon monoxide and nitrogen dioxide emissions is key to managing ozone levels effectively.
+
+
+
