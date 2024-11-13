@@ -171,9 +171,9 @@ The analysisshows that carbon monoxide and nitrogen dioxide are the biggest fact
 ##### Using a logistic regression
 >
 >>Cross-validated accuracy scores: [0.75188779 0.75094389 0.74846343 0.75250241 0.75155307]
-Average accuracy: 0.75
-training_accuracy : 0.751083286870168
-testing_accuracy : 0.7494073228553868
+>>>Average accuracy: 0.75
+>>>>training_accuracy : 0.751083286870168
+>>>>>testing_accuracy : 0.7494073228553868
 
 
 ##### Using support Vector Machine
@@ -211,7 +211,14 @@ testing_accuracy : 0.7494073228553868
 
 >
 >>![](images/11.png)
+>
+The Random Forest Classifier performed almost perfectly in this test, with an accuracy of 99.95%, meaning it correctly predicted nearly all the examples.
 
+Confusion Matrix: There were very few mistakes. In class 0, 19 instances were misclassified, and in class 3, 7 instances were misclassified, but the rest were predicted correctly.
+
+Classification Report:
+
+Precision: For all the weather classes, every positive prediction was correct. Recall: The model correctly identified nearly all true examples for each class. F1-score: The balance between precision and recall is excellent for all classes, showing very strong performance. In short, the model made very few errors and is highly reliable at predicting the correct weather labels based on the data.
 
 ### conclusion
 #### Achievements in This Weather Classification Use Case
