@@ -185,7 +185,7 @@ testing_accuracy : 0.9478795328826061
 
 ##### using Decission Tree
 
->cross-validated accuracy scores: [0.86587138 0.86711275 0.86687053 0.86711275 0.8686832 ]
+>>cross-validated accuracy scores: [0.86587138 0.86711275 0.86687053 0.86711275 0.8686832 ]
 Average accuracy: 0.87
 training_accuracy : 0.8671422256402183
 testing_accuracy : 0.8649830664380984
