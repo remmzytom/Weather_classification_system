@@ -175,6 +175,8 @@ The analysisshows that carbon monoxide and nitrogen dioxide are the biggest fact
 >>>>training_accuracy : 0.751083286870168
 >>>>>testing_accuracy : 0.7494073228553868
 
+The logistic regression model performs fairly well, with an average accuracy of 75% across cross-validation, training, and testing. The close alignment between training accuracy (75.1%) and testing accuracy (74.9%) suggests that the model generalizes reasonably well to new data, with no major overfitting.
+
 
 ##### Using support Vector Machine
 >
@@ -183,12 +185,20 @@ The analysisshows that carbon monoxide and nitrogen dioxide are the biggest fact
 >>>>training_accuracy : 0.9479363769267579
 >>>>>testing_accuracy : 0.9478795328826061
 
+The SVM model shows high and consistent accuracy around 94% across cross-validation, training, and testing, indicating strong performance and good generalization to new data.
+
+
+
+
 ##### using Decission Tree
 >
 >>cross-validated accuracy scores: [0.86587138 0.86711275 0.86687053 0.86711275 0.8686832 ]
 >>>Average accuracy: 0.87
 >>>>training_accuracy : 0.8671422256402183
 >>>>>>testing_accuracy : 0.8649830664380984
+
+The decision tree model has a solid accuracy of around 87% across cross-validation, training, and testing, showing consistent performance and minimal overfitting, indicating it generalizes well to new data.
+
 
 ##### Using AdaBoostClassifier
 >
@@ -197,6 +207,7 @@ The analysisshows that carbon monoxide and nitrogen dioxide are the biggest fact
 >>>>training_accuracy : 0.8612295251098653
 >>>>>testing_accuracy : 0.8594784441127403
 
+The AdaBoost classifier performs reliably with an average accuracy of 85% across cross-validation, training, and testing, showing balanced and consistent results with minimal overfitting.
 
 ##### Using Random Forest Classifier
 >
@@ -205,6 +216,7 @@ The analysisshows that carbon monoxide and nitrogen dioxide are the biggest fact
 >>>>training_accuracy : 1.0
 >>>>>testing_accuracy : 0.9995785406971639
 
+The random forest model performs exceptionally well, with nearly perfect accuracy across training, testing, and cross-validation at around 100%. This makes it the best model out of all those evaluated, showing it can predict new data with high reliability
 
 #### prediction using Random Forest Classifier
 
