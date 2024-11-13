@@ -108,7 +108,7 @@ I seek to understand how changes in the amount of water vapor in the air (measur
 ![](images/7.png)
 
 The visualisation shows how vapour pressure and humidity levels are related, using different colors to represent various vapour pressure values. Higher vapour pressure, shown in green and yellow, usually goes along with higher humidity levels. Most data points fall between 1.0 and 2.5 vapour pressure units, with humidity levels ranging from 0% to 100%.
-
+>
 When humidity levels are high (above 60%), vapour pressure values are spread out but tend to be higher. On the other hand, when humidity is low (below 40%), vapour pressure is generally lower, shown in purple and blue. This pattern suggests that higher humidity often means higher vapour pressure and more concentrated vapour pressure, though there is some variation.
 
 
@@ -121,7 +121,7 @@ I aim to identify and analyze how these three atmospheric variables interact ove
 This analysis shows how air temperature, humidity, and atmospheric pressure change over time. The high and consistent levels of humidity suggest that the environment remains moist throughout the recorded period. Humidity levels stay quite high most of the time, which indicates a steady moisture presence, possibly due to frequent rainfall or high moisture in the air. This moisture could have a significant impact on local weather conditions and daily life.
 
 The air temperature fluctuates noticeably, showing frequent rises and falls. This pattern suggests regular cycles in temperature, likely driven by daily weather changes or seasonal effects. These temperature changes are typical of environments where temperatures shift between day and night or during different seasons.
-
+>
 Meanwhile, the atmospheric pressure remains relatively stable, with only slight variations. This steady pressure suggests that large weather changes, such as storms or fronts, may not be common during the observed period. The combination of stable pressure and fluctuating temperature could point to a climate where conditions like rain or cloudy days are frequent, but severe weather events are rare.
 
 
@@ -148,7 +148,7 @@ Aim to examine how ozone concentrations have varied over multiple years, identif
 ![](images/4.png)
 
 The graph shows that ozone levels have remained fairly consistent from 2021 to 2024, with most values concentrated between 100 and 200 units. This indicates that the ozone levels in the area have stayed stable throughout this period. There is a small amount of variation outside of this range, but the majority of the data suggests that pollution sources related to ozone have not significantly increased or decreased over time. There are a few outliers, especially with negative values, that may need further investigation or data cleaning.
-
+>
 If this trend continues, there could be long-term implications for air quality and public health. Consistently high ozone levels could negatively affect the environment and human health if left unchecked. It’s important to monitor these levels closely and take action to reduce pollution sources where possible. Maintaining stable ozone levels is positive, but efforts should still focus on reducing pollutants to improve air quality and prevent any potential harm to health and the environment.
 
 
@@ -179,13 +179,13 @@ The analysisshows that carbon monoxide and nitrogen dioxide are the biggest fact
 ### conclusion
 #### Achievements in This Weather Classification Use Case
 ###### Highly Accurate Weather Prediction:
-- The Random Forest Classifier achieved a high accuracy of 99.95%, meaning it can predict different weather conditions (rainy, sunny, cloudy, and stormy) with almost perfect precision. Balanced Data for Better Predictions:
+- **The Random Forest Classifier achieved a high accuracy of 99.95%**, meaning it can predict different weather conditions (rainy, sunny, cloudy, and stormy) with almost perfect precision. Balanced Data for Better Predictions:
 
-- To handle the imbalance in weather labels (with "rainy" being much more frequent), data resampling techniques like SMOTE were used. This balanced the dataset, allowing the model to perform well on all weather types. Feature Importance Analysis:
+- To handle the imbalance in weather labels (with "rainy" being much more frequent), data resampling techniques like **SMOTE** were used. This balanced the dataset, allowing the model to perform well on all weather types. Feature Importance Analysis:
 
 - The model identified the most important environmental factors, such as carbon monoxide, nitrogen dioxide, and atmospheric pressure, which are key in determining weather patterns. Model Comparison and Validation:
 
-- Multiple models were tested (SVM, Decision Trees, AdaBoost), and Random Forest was chosen as the best performing one after cross-validation, ensuring the most reliable predictions. Data Visualization Insights:
+- Multiple models were tested **(SVM, Decision Trees, AdaBoost)**, and **Random Forest** was chosen as the best performing one after cross-validation, ensuring the most reliable predictions. Data Visualization Insights:
 
 - Clear visualizations helped understand how environmental factors like wind speed, temperature, and pressure change over time, supporting the weather classification and providing additional insights for stakeholders.
 
@@ -212,11 +212,11 @@ The analysisshows that carbon monoxide and nitrogen dioxide are the biggest fact
 - When humidity is above 60%, vapour pressure values tend to be higher, while lower humidity corresponds with lower vapour pressure.
 
 
-### At broad Level¶
+### At broad Level
 In this project, I developed a model that can predict weather conditions using key environmental data such as temperature, humidity, air pressure, and pollution levels. The model was tested and showed strong accuracy in its predictions, meaning it can be trusted to provide reliable insights about upcoming weather.
 
 I saved the model so it can be easily reused in future applications without needing to retrain it. I also tested it with different sets of data to ensure it works as expected.
-
+>
 This solution can help organizations in industries like agriculture, construction, and event planning, where weather conditions are important for making decisions. By accurately predicting weather conditions, businesses can plan more efficiently, avoid risks, and make better decisions. This model is ready to be integrated into systems that help make informed decisions, and it can be further improved as more data becomes available.
 
 
