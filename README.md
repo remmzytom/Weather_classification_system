@@ -170,7 +170,7 @@ The analysisshows that carbon monoxide and nitrogen dioxide are the biggest fact
 #### Model training and Prediction
 ##### Using a logistic regression
 >
-Cross-validated accuracy scores: [0.75188779 0.75094389 0.74846343 0.75250241 0.75155307]
+>>Cross-validated accuracy scores: [0.75188779 0.75094389 0.74846343 0.75250241 0.75155307]
 Average accuracy: 0.75
 training_accuracy : 0.751083286870168
 testing_accuracy : 0.7494073228553868
