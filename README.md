@@ -85,8 +85,7 @@ Data cleaning and formatting
 #### Machine learning and modelling
 - dimensionality reduction(t-SNE)
 - resampling technique(smote)
-- Model training
-- prediction
+- [Model Training and Prediction](#model-training-and-prediction)
 
 #### deployment
 - pickle
