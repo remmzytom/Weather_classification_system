@@ -75,7 +75,7 @@ Data cleaning and formatting
 - feature encoding
 
 #### Exploratory Data Analysis(EDA)
-- [Variation of Avg_Wind_speed and Gust_Wind_speed](#Variation of Avg_Wind_speed and Gust_Wind_speed)
+ - [Variation of Avg_Wind_speed and Gust_Wind_speed](#variation-of-avg_wind_speed-and-gust_wind_speed)
 - Impact of Vapour Pressure on Humidity
 - Patterns in Air Temperature, Humidity, and Pressure
 - patterns of pollutants across the year
