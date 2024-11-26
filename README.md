@@ -168,7 +168,7 @@ The analysisshows that carbon monoxide and nitrogen dioxide are the biggest fact
 
 
 ## Model training and Prediction
-#### Using a logistic regression
+### Using a logistic regression
 >
 >>Cross-validated accuracy scores: [0.75188779 0.75094389 0.74846343 0.75250241 0.75155307]
 >>>Average accuracy: 0.75
@@ -178,7 +178,7 @@ The analysisshows that carbon monoxide and nitrogen dioxide are the biggest fact
 The logistic regression model performs fairly well, with an average accuracy of 75% across cross-validation, training, and testing. The close alignment between training accuracy (75.1%) and testing accuracy (74.9%) suggests that the model generalizes reasonably well to new data, with no major overfitting.
 
 
-#### Using support Vector Machine
+### Using support Vector Machine
 >
 >>Cross-validated accuracy scores: [0.94387128 0.9433225  0.93954693 0.94512249 0.94261881]
 >>>Average accuracy: 0.94
@@ -190,7 +190,7 @@ The SVM model shows high and consistent accuracy around 94% across cross-validat
 
 
 
-#### using Decission Tree
+### using Decission Tree
 >
 >>cross-validated accuracy scores: [0.86587138 0.86711275 0.86687053 0.86711275 0.8686832 ]
 >>>Average accuracy: 0.87
@@ -200,7 +200,7 @@ The SVM model shows high and consistent accuracy around 94% across cross-validat
 The decision tree model has a solid accuracy of around 87% across cross-validation, training, and testing, showing consistent performance and minimal overfitting, indicating it generalizes well to new data.
 
 
-#### Using AdaBoostClassifier
+### Using AdaBoostClassifier
 >
 >>cross-validated accuracy scores: [0.8558258  0.85334533 0.85150145 0.85266485 0.85136648]
 >>>Average accuracy: 0.85
@@ -209,7 +209,7 @@ The decision tree model has a solid accuracy of around 87% across cross-validati
 
 The AdaBoost classifier performs reliably with an average accuracy of 85% across cross-validation, training, and testing, showing balanced and consistent results with minimal overfitting.
 
-#### Using Random Forest Classifier
+### Using Random Forest Classifier
 >
 >>cross-validated accuracy score : [0.99947318 0.99956098 0.99953903 0.99947318 0.99940731]
 >>>average accuracy : 1.00
@@ -218,7 +218,7 @@ The AdaBoost classifier performs reliably with an average accuracy of 85% across
 
 The random forest model performs exceptionally well, with nearly perfect accuracy across training, testing, and cross-validation at around 100%. This makes it the best model out of all those evaluated, showing it can predict new data with high reliability
 
-#### prediction using Random Forest Classifier
+### prediction using Random Forest Classifier
 
 
 >
@@ -245,7 +245,7 @@ Precision: For all the weather classes, every positive prediction was correct. R
 
 - Clear visualizations helped understand how environmental factors like wind speed, temperature, and pressure change over time, supporting the weather classification and providing additional insights for stakeholders.
 
-#### we gained several key insights and learning outcomes:
+## we gained several key insights and learning outcomes:
 #### Air Temperature, Humidity, and Pressure Patterns:
 - High humidity levels throughout the recorded period suggest a moist environment, possibly due to frequent rain.
 - Air temperature fluctuates regularly, indicating daily or seasonal cycles.
@@ -268,7 +268,7 @@ Precision: For all the weather classes, every positive prediction was correct. R
 - When humidity is above 60%, vapour pressure values tend to be higher, while lower humidity corresponds with lower vapour pressure.
 
 
-### At broad Level
+## At broad Level
 In this project, I developed a model that can predict weather conditions using key environmental data such as temperature, humidity, air pressure, and pollution levels. The model was tested and showed strong accuracy in its predictions, meaning it can be trusted to provide reliable insights about upcoming weather.
 
 I saved the model so it can be easily reused in future applications without needing to retrain it. I also tested it with different sets of data to ensure it works as expected.
