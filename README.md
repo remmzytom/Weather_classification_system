@@ -140,7 +140,7 @@ I aim to examine how levels of various pollutants change throughout the year, id
 
 These pollutants have levels that go up and down every month, but there are no clear trends showing they are increasing or decreasing over time. This suggests that the sources of these pollutants, like cars and factories, are consistent throughout the year.
 
-## PM10 and PM2.5: 
+### PM10 and PM2.5: 
 In terms pf PM10(particulate matter) levels also fluctuate each month without a clear trend, which might be due to weather changes or different activities. PM2.5(particulate matter) levels are stable and low throughout the year, indicating that efforts to control this pollutant might be effective.
 
 <br><br>
@@ -236,6 +236,8 @@ Classification Report:
 
 Precision: For all the weather classes, every positive prediction was correct. Recall: The model correctly identified nearly all true examples for each class. F1-score: The balance between precision and recall is excellent for all classes, showing very strong performance. In short, the model made very few errors and is highly reliable at predicting the correct weather labels based on the data.
 
+<br><br>
+
 ## conclusion
 #### Achievements in This Weather Classification Use Case
 ###### Highly Accurate Weather Prediction:
@@ -279,7 +281,7 @@ I saved the model so it can be easily reused in future applications without need
 >
 This solution can help organizations in industries like agriculture, construction, and event planning, where weather conditions are important for making decisions. By accurately predicting weather conditions, businesses can plan more efficiently, avoid risks, and make better decisions. This model is ready to be integrated into systems that help make informed decisions, and it can be further improved as more data becomes available.
 
-
+<br><br>
 
 ## References
 [2] Victorian 'Crash-Stat's dataset https://discover.data.vic.gov.au/dataset/crash-stats-data-extract/resource/392b88c0-f010-491f-ac92-531c293de2e9
