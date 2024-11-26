@@ -75,7 +75,7 @@ Data cleaning and formatting
 - feature encoding
 
 #### Exploratory Data Analysis(EDA)
-- Variation od Avg_Wind_speed and Gust_Wind_speed
+- [Variation of Avg_Wind_speed and Gust_Wind_speed](#Variation of Avg_Wind_speed and Gust_Wind_speed)
 - Impact of Vapour Pressure on Humidity
 - Patterns in Air Temperature, Humidity, and Pressure
 - patterns of pollutants across the year
@@ -93,7 +93,7 @@ Data cleaning and formatting
 
 <br><br>
 
-## Variation od Avg_Wind_speed and Gust_Wind_speed¶
+## Variation of Avg_Wind_speed and Gust_Wind_speed¶
 we are typically trying to understand the relationship between typical wind conditions and extreme wind events
 
 ![](images/8.png)
