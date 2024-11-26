@@ -1,10 +1,10 @@
-# Weather classification system
+# Weather classification system [project link]()
 
 
 
 
 
-### Scenario
+## Scenario
 As an urban planner or agricultural manager, I need to accurately classify different weather conditions using environmental features to determine the optimal times for infrastructure projects and agricultural activities. This will ensure that operations are conducted under favorable weather conditions, thereby providing actionable insights for planning and decision-making.
 
 ### What this use case will teach us
