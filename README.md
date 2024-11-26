@@ -282,16 +282,16 @@ This solution can help organizations in industries like agriculture, constructio
 <br><br>
 
 ## References
-[2] [Victorian 'Crash-Stat's dataset](https://discover.data.vic.gov.au/dataset/crash-stats-data-extract/resource/392b88c0-f010-491f-ac92-531c293de2e9)
+[1] [Victorian 'Crash-Stat's dataset](https://discover.data.vic.gov.au/dataset/crash-stats-data-extract/resource/392b88c0-f010-491f-ac92-531c293de2e9)
 
-[8] [Creating point plot group layers with folium](https://towardsdatascience.com/creating-an-interactive-map-of-wildfire-data-using-folium-in-pythoiveTimeSeries.html)
+[2] [Creating point plot group layers with folium](https://towardsdatascience.com/creating-an-interactive-map-of-wildfire-data-using-folium-in-pythoiveTimeSeries.html)
 
-[8] [Machine learning tutorial](https://www.youtube.com/watch?v=7eh4d6sabA0&t=6s)
+[3] [Machine learning tutorial](https://www.youtube.com/watch?v=7eh4d6sabA0&t=6s)
 
-[8] [Machine learning reading](https://www.coursera.org/articles/what-is-machine-learning?msockid=345dd51d5bb367590de6c1655a6666f1)
+[4] [Machine learning reading](https://www.coursera.org/articles/what-is-machine-learning?msockid=345dd51d5bb367590de6c1655a6666f1)
 
-[8] [Intelligence Analysis skill:](https://www.youtube.com/watch?v=iuU_GI5WMpY)
+[5] [Intelligence Analysis skill:](https://www.youtube.com/watch?v=iuU_GI5WMpY)
 
-[8] [Australia Bureau mete0rology](http://www.bom.gov.au/vic/forecasts/melbourne.shtml)
+[6] [Australia Bureau mete0rology](http://www.bom.gov.au/vic/forecasts/melbourne.shtml)
 
-[8] [Atmosphere Earth DAta](https://www.earthdata.nasa.gov/topics/atmosphere)
+[7] [Atmosphere Earth DAta](https://www.earthdata.nasa.gov/topics/atmosphere)
