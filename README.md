@@ -77,10 +77,10 @@ Data cleaning and formatting
 #### Exploratory Data Analysis(EDA)
  - [Variation of Avg_Wind_speed and Gust_Wind_speed](#variation-of-avg_wind_speed-and-gust_wind_speed)
 -  [Impact of Vapour Pressure on Humidity](#impact-of-vapour-pressure-on-humidity)
-- Patterns in Air Temperature, Humidity, and Pressure
-- patterns of pollutants across the year
-- Efect of pollutants across different years
-- determine the features that contributed to high rate of Ozone
+- [Patterns in Air Temperature, Humidity, and Pressure](#patterns-in-air-temperature-humidity-and-pressure)
+- [Patterns of Pollutants Across the Year](#patterns-of-pollutants-across-the-year)
+- [Ozone Levels Across Different Years](#ozone-levels-across-different-years)
+- [Features That Contributed to High Rate of Ozone Level Across the Years](#features-that-contributed-to-high-rate-of-ozone-level-across-the-years)
 
 #### Machine learning and modelling
 - dimensionality reduction(t-SNE)
