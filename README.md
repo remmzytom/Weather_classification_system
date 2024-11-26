@@ -29,7 +29,7 @@ Argyle Square Weather Stations (Historical Data) — CoM Open Data Portal (melbo
 
 Argyle Square Air Quality — CoM Open Data Portal (melbourne.vic.gov.au)
 
-
+<br><br>
 ## Dataset Information
 
 #### The dataset for this project includes the following features::
@@ -43,7 +43,7 @@ Argyle Square Air Quality — CoM Open Data Portal (melbourne.vic.gov.au)
 >
  These features will be used to classify weather conditions into categories such as sunny, cloudy, rainy, and stormy. The dataset will be preprocessed to handle any missing values, outliers, or inconsistencies - before being used to train the machine learning model.
 
-
+<br><br>
 
 ### skill set
  - Datacleaning
@@ -57,7 +57,7 @@ Argyle Square Air Quality — CoM Open Data Portal (melbourne.vic.gov.au)
 - Basic Meteorology
 - Pickle
 
-
+<br><br>
 ### steps taken 
 
 #### Data cleaning/preparation
@@ -91,7 +91,6 @@ Data cleaning and formatting
 #### deployment
 - pickle
 
-<br><br>
 <br><br>
 
 ## Variation od Avg_Wind_speed and Gust_Wind_speed¶
