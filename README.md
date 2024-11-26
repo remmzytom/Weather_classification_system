@@ -7,7 +7,7 @@
 ### Scenario
 As an urban planner or agricultural manager, I need to accurately classify different weather conditions using environmental features to determine the optimal times for infrastructure projects and agricultural activities. This will ensure that operations are conducted under favorable weather conditions, thereby providing actionable insights for planning and decision-making.
 
-#### What this use case will teach us
+### What this use case will teach us
 At the end of this use case you will:
 
 Understand how to preprocess and analyze environmental data.
@@ -18,10 +18,10 @@ Understand the importance of accurate weather classification for planning and de
 introduction
 In this use case, we aim to develop a robust machine learning model capable of accurately classifying various weather conditions such as sunny, cloudy, rainy, and stormy using environmental features. These features include ambient air temperature, relative humidity, atmospheric pressure, wind speed and direction, and gust wind speed. Accurate weather classification is important for optimizing the timing of infrastructure projects and agricultural activities, ensuring that operations are conducted under favorable weather conditions. By leveraging machine learning techniques, we can provide actionable insights for planning and decision-making.
 
-#### Background
+### Background
 Weather conditions have a significant impact on various sectors, including agriculture, construction, and transportation. Accurate weather forecasts and classifications can help in planning and executing operations more efficiently. For instance, farmers can optimize planting and harvesting times based on expected weather conditions, while construction projects can be scheduled to avoid adverse weather that could delay progress or compromise safety.
 
-#### In this project, we will use historical weather data from Melbourne's open data portal. The datasets include:
+### In this project, we will use historical weather data from Melbourne's open data portal. The datasets include:
 
 Microclimate sensors data — CoM Open Data Portal (melbourne.vic.gov.au)
 
@@ -30,9 +30,9 @@ Argyle Square Weather Stations (Historical Data) — CoM Open Data Portal (melbo
 Argyle Square Air Quality — CoM Open Data Portal (melbourne.vic.gov.au)
 
 
-#### Dataset Information
+## Dataset Information
 
-##### The dataset for this project includes the following features::
+#### The dataset for this project includes the following features::
 
 - Ambient air temperature (°C)
 - Relative humidity (%)
@@ -45,7 +45,7 @@ Argyle Square Air Quality — CoM Open Data Portal (melbourne.vic.gov.au)
 
 
 
-#### skill set
+### skill set
  - Datacleaning
  - Data analysis and visualizations
  - Machine Learning(supervised Learning)
@@ -58,7 +58,7 @@ Argyle Square Air Quality — CoM Open Data Portal (melbourne.vic.gov.au)
 - Pickle
 
 
-#### steps taken 
+### steps taken 
 
 #### Data cleaning/preparation
 Data loading and with API
@@ -93,7 +93,7 @@ Data cleaning and formatting
 
 
 
-#### Variation od Avg_Wind_speed and Gust_Wind_speed¶
+## Variation od Avg_Wind_speed and Gust_Wind_speed¶
 we are typically trying to understand the relationship between typical wind conditions and extreme wind events
 
 ![](images/8.png)
@@ -101,7 +101,7 @@ we are typically trying to understand the relationship between typical wind cond
 This analysis shows the seasonal variation of average wind speed and gust wind speed throughout the year.The graph shows that in February and September, both average and gust wind speeds peak, indicating stronger winds during these months. Conversely, December and October experience significant drops in wind speeds, with December starting low and October having a notable decline after the September peak. This behavior during these periods may be due to changes seen in the winter and autumn months.
 
 
-#### Impact of Vapour Pressure on Humidity
+## Impact of Vapour Pressure on Humidity
 
 I seek to understand how changes in the amount of water vapor in the air (measured as vapor pressure) influence the level of moisture or humidity in the atmosphere.
 
@@ -112,7 +112,7 @@ The visualisation shows how vapour pressure and humidity levels are related, usi
 When humidity levels are high (above 60%), vapour pressure values are spread out but tend to be higher. On the other hand, when humidity is low (below 40%), vapour pressure is generally lower, shown in purple and blue. This pattern suggests that higher humidity often means higher vapour pressure and more concentrated vapour pressure, though there is some variation.
 
 
-#### Patterns in Air Temperature, Humidity, and Pressure
+## Patterns in Air Temperature, Humidity, and Pressure
 
 I aim to identify and analyze how these three atmospheric variables interact over time under different conditions. The goal is to explore potential relationships, seasonal trends, or fluctuations in temperature, humidity, and pressure, providing insights into weather patterns, climate behavior, and environmental conditions.
 
@@ -127,21 +127,21 @@ Meanwhile, the atmospheric pressure remains relatively stable, with only slight 
 
 
 
-#### patterns of pollutants across the year
+## patterns of pollutants across the year
 
 I aim to examine how levels of various pollutants change throughout the year, identifying any seasonal trends, peak periods, or fluctuations. The goal is to understand when pollutant levels are highest or lowest, which can help in forecasting air quality, understanding environmental impacts, and informing public health strategies.
 
 ![](images/5.png)
 
-##### Carbon Monoxide (CO) and Nitrogen Dioxide (NO2):
+### Carbon Monoxide (CO) and Nitrogen Dioxide (NO2):
 
 These pollutants have levels that go up and down every month, but there are no clear trends showing they are increasing or decreasing over time. This suggests that the sources of these pollutants, like cars and factories, are consistent throughout the year.
 
-##### PM10 and PM2.5: 
+## PM10 and PM2.5: 
 In terms pf PM10(particulate matter) levels also fluctuate each month without a clear trend, which might be due to weather changes or different activities. PM2.5(particulate matter) levels are stable and low throughout the year, indicating that efforts to control this pollutant might be effective.
 
 
-#### Ozone levels across different years
+## Ozone levels across different years
 
 Aim to examine how ozone concentrations have varied over multiple years, identifying any long-term trends. The goal is to understand changes in ozone levels over time, which can provide insights into the effectiveness of environmental regulations, the impact of climate change, and implications for air quality and public health.
 
@@ -156,7 +156,7 @@ If this trend continues, there could be long-term implications for air quality a
 
 
 
-#### features that contributed to high rate of Ozone level across the years
+## features that contributed to high rate of Ozone level across the years
 
 seeks to identify and analyze the key factors that influence elevated ozone concentrations
 
@@ -167,7 +167,7 @@ The analysisshows that carbon monoxide and nitrogen dioxide are the biggest fact
 
 
 
-#### Model training and Prediction
+## Model training and Prediction
 #### Using a logistic regression
 >
 >>Cross-validated accuracy scores: [0.75188779 0.75094389 0.74846343 0.75250241 0.75155307]
@@ -232,7 +232,7 @@ Classification Report:
 
 Precision: For all the weather classes, every positive prediction was correct. Recall: The model correctly identified nearly all true examples for each class. F1-score: The balance between precision and recall is excellent for all classes, showing very strong performance. In short, the model made very few errors and is highly reliable at predicting the correct weather labels based on the data.
 
-### conclusion
+## conclusion
 #### Achievements in This Weather Classification Use Case
 ###### Highly Accurate Weather Prediction:
 - **The Random Forest Classifier achieved a high accuracy of 99.95%**, meaning it can predict different weather conditions (rainy, sunny, cloudy, and stormy) with almost perfect precision. Balanced Data for Better Predictions:
@@ -277,7 +277,7 @@ This solution can help organizations in industries like agriculture, constructio
 
 
 
-### References
+## References
 [2] Victorian 'Crash-Stat's dataset https://discover.data.vic.gov.au/dataset/crash-stats-data-extract/resource/392b88c0-f010-491f-ac92-531c293de2e9
 
 [8] Creating point plot group layers with folium https://towardsdatascience.com/creating-an-interactive-map-of-wildfire-data-using-folium-in-pythoiveTimeSeries.html
