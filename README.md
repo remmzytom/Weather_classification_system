@@ -21,7 +21,7 @@ In this use case, we aim to develop a robust machine learning model capable of a
 ### Background
 Weather conditions have a significant impact on various sectors, including agriculture, construction, and transportation. Accurate weather forecasts and classifications can help in planning and executing operations more efficiently. For instance, farmers can optimize planting and harvesting times based on expected weather conditions, while construction projects can be scheduled to avoid adverse weather that could delay progress or compromise safety.
 
-### In this project, we will use historical weather data from Melbourne's open data portal. The datasets include:
+### In this project, I used historical weather data from Melbourne's open data portal. The datasets include:
 
 Microclimate sensors data — CoM Open Data Portal (melbourne.vic.gov.au)
 
