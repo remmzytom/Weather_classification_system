@@ -101,6 +101,7 @@ we are typically trying to understand the relationship between typical wind cond
 
 This analysis shows the seasonal variation of average wind speed and gust wind speed throughout the year.The graph shows that in February and September, both average and gust wind speeds peak, indicating stronger winds during these months. Conversely, December and October experience significant drops in wind speeds, with December starting low and October having a notable decline after the September peak. This behavior during these periods may be due to changes seen in the winter and autumn months.
 
+<br><br>
 
 ## Impact of Vapour Pressure on Humidity
 
@@ -112,6 +113,7 @@ The visualisation shows how vapour pressure and humidity levels are related, usi
 >
 When humidity levels are high (above 60%), vapour pressure values are spread out but tend to be higher. On the other hand, when humidity is low (below 40%), vapour pressure is generally lower, shown in purple and blue. This pattern suggests that higher humidity often means higher vapour pressure and more concentrated vapour pressure, though there is some variation.
 
+<br><br>
 
 ## Patterns in Air Temperature, Humidity, and Pressure
 
@@ -126,7 +128,7 @@ The air temperature fluctuates noticeably, showing frequent rises and falls. Thi
 Meanwhile, the atmospheric pressure remains relatively stable, with only slight variations. This steady pressure suggests that large weather changes, such as storms or fronts, may not be common during the observed period. The combination of stable pressure and fluctuating temperature could point to a climate where conditions like rain or cloudy days are frequent, but severe weather events are rare.
 
 
-
+<br><br>
 
 ## patterns of pollutants across the year
 
@@ -141,6 +143,7 @@ These pollutants have levels that go up and down every month, but there are no c
 ## PM10 and PM2.5: 
 In terms pf PM10(particulate matter) levels also fluctuate each month without a clear trend, which might be due to weather changes or different activities. PM2.5(particulate matter) levels are stable and low throughout the year, indicating that efforts to control this pollutant might be effective.
 
+<br><br>
 
 ## Ozone levels across different years
 
@@ -154,7 +157,7 @@ If this trend continues, there could be long-term implications for air quality a
 
 
 
-
+<br><br>
 
 
 ## features that contributed to high rate of Ozone level across the years
@@ -166,7 +169,7 @@ seeks to identify and analyze the key factors that influence elevated ozone conc
 The analysisshows that carbon monoxide and nitrogen dioxide are the biggest factors affecting ozone levels. Carbon monoxide has the highest impact, meaning it has a strong connection to ozone, likely because of its role in chemical reactions in the air. Nitrogen dioxide also significantly affects ozone, especially in places with heavy traffic emissions. Other factors like temperature have a smaller effect. This suggests that controlling carbon monoxide and nitrogen dioxide emissions is key to managing ozone levels effectively.
 
 
-
+<br><br>
 
 ## Model training and Prediction
 ### Using a logistic regression
