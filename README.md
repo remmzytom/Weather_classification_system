@@ -91,7 +91,7 @@ Data cleaning and formatting
 #### deployment
 - pickle
 
-
+<br><br>
 
 ## Variation od Avg_Wind_speed and Gust_Wind_speed¶
 we are typically trying to understand the relationship between typical wind conditions and extreme wind events
